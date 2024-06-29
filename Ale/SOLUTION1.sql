@@ -52,3 +52,4 @@ JOIN conversation_ends ce ON o.order_id = ce.order_id
 LEFT JOIN status_delivery sd ON o.order_id = sd.order_id
 
 where sd.message_sent_time = ce.last_message_timestamp;
+
